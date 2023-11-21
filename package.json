@@ -1,0 +1,28 @@
+{
+  "name": "fanclub",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -r https://github.com/zzzxy0313/fc.git -b gh-pages"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "echarts": "^5.4.3",
+    "element-ui": "^2.15.14",
+    "vue": "^2.6.14",
+    "vue-resource": "^1.5.3",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "gh-pages": "^6.1.0",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
