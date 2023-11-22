@@ -1,7 +1,7 @@
 
 <template>
   <div class="home">
-    <!--2、为echarts准备一个具备大小、宽高的dom-->
+    <!--2、为echarts准备一个具备大小、宽高的dom1-->
             
             <div id="main" style="width:100%;height:400px;">
             </div>
